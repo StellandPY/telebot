@@ -12,7 +12,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-token = '1318922261:AAG4ae3IVRamnNG89VHNLX4gfZa-XI4zEtA'
+token = ''
 bot = telebot.TeleBot(token)
 
 conn = sqlite3.connect('stellbet.db', check_same_thread=False)
